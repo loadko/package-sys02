@@ -18,7 +18,7 @@
     "Demo",
     "Package"
   ],
-  "license": "ISC",
+  "license": "MIT",
   "main": "dist/index.js",
   "name": "package-sys02",
   "repository": {
