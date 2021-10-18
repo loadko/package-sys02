@@ -1,0 +1,36 @@
+{
+  "author": "Loredan Adrian Konyicska",
+  "bugs": {
+    "url": "https://github.com/loadko/package-sys02/issues"
+  },
+  "dependencies": {
+    "class-validator": "^0.13.1"
+  },
+  "description": "Demo package",
+  "devDependencies": {
+    "typescript": "^4.4.4"
+  },
+  "files": [
+    "dist/**/*"
+  ],
+  "homepage": "https://github.com/loadko/package-sys02#readme",
+  "keywords": [
+    "Demo",
+    "Package"
+  ],
+  "license": "ISC",
+  "main": "dist/index.js",
+  "name": "package-sys02",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/loadko/package-sys02.git"
+  },
+  "scripts": {
+    "build": "tsc",
+    "postversion": "git push && git push --tags",
+    "prepare": "npm run build",
+    "version": "git add -A src"
+  },
+  "types": "dist/index.d.ts",
+  "version": "1.0.0"
+}
